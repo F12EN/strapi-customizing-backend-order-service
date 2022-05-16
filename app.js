@@ -10,5 +10,5 @@ app.use(async (ctx) => {
 });
 
 app.listen(3000, () => {
-  console.log("Order service running")
+  console.log("Order service running on http://localhost:3000")
 })
